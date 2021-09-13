@@ -48,6 +48,7 @@
   color: white;
   font-weight: 500;
   transition: .3s;
+  user-select: none;
 }
 
 .content__hero-btn span:first-child:hover {
@@ -64,4 +65,74 @@
   background-color: transparent;
   border: 2px solid #091133;
   color: #091133;
+  margin-left: 25px;
+}
+
+@media (max-width: 1150px) {
+  .content {
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .content__hero {
+    height: 800px;
+  }
+  .content__hero-intro {
+    padding-top: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content__hero-intro {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .content__hero-intro {
+    padding-top: 120px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 500px) {
+  .content__hero-intro {
+    padding-top: 120px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 425px) {
+  .content__hero {
+    height: 700px;
+  }
+  .content__hero-intro {
+    font-size: 12px;
+    padding-top: 70px;
+  }
+
+  .content__hero-btn span {
+    width: 150px;
+  }
+}
+
+@media (max-width: 375px) {
+  .content__hero-btn span {
+    font-size: 14px;
+    width: 130px;
+  }
+
+  .content__hero-btn span:last-child {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 335px) {
+  .content__hero-intro {
+    font-size: 11px;
+  }
+  .content__hero-btn span {
+    width: 120px;
+  }
 }
