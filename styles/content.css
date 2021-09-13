@@ -124,6 +124,29 @@
   margin-top: 40px;
 }
 
+.content__col-child {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 75px;
+}
+
+.content__col-child div {
+  width: 48%;
+}
+
+.content__col-child h3 {
+  color: #091133;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.content__col-child p {
+  font-size: 12px;
+  color: #5D6970;
+  line-height: 18px;
+}
+
 @media (max-width: 1150px) {
   .content {
     margin: 0 20px;
