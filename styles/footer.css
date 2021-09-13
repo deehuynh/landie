@@ -1,0 +1,143 @@
+.footer {
+  height: 216px;
+  background-color: #E7ECFF;
+}
+
+.footer__container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.footer__row-1 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #CDD1D4;
+  padding-top: 70px;
+  align-items: center;
+}
+
+.footer__row-2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.footer__btn {
+  width: 109px;
+  height: 26px;
+  line-height: 26px;
+  font-size: 12px;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  font-weight: 500;
+  color: #939EA4;
+}
+
+.footer__nav {
+  width: 245px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__nav a {
+  text-decoration: none;
+  color: #929ECC;
+  font-size: 14px;
+}
+
+.footer__nav a:hover {
+  font-weight: 500;
+}
+
+.footer__social span {
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.footer__social span:hover {
+  opacity: 0.5;
+}
+
+.footer__logo {
+  width: 110px;
+}
+
+.footer__logo a {
+  font-size: 26px;
+  color: #37447E;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+@media (max-width: 1150px) {
+  .footer__container {
+    margin: 0 20px;
+  }
+}
+
+@media (max-width: 550px) {
+  .footer__nav {
+    width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer__logo {
+    width: auto;
+  }
+  .footer__nav {
+    width: 170px;
+  }
+
+  .footer__social span {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer__container {
+    margin: 0 15px;
+  }
+  .footer__logo {
+    order: 1;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  .footer__copyright {
+    order: 2;
+  }
+
+  .footer__btn {
+    display: none;
+  }
+
+  .footer__row-1 {
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  .footer__nav {
+    width: 150px;
+  }
+
+  .footer__social span {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .footer__social span {
+    margin-left: 5px;
+  }
+
+  .footer__nav {
+    width: 140px;
+  }
+}
