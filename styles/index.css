@@ -33,6 +33,19 @@ body {
   width: 100%;
 }
 
+.button {
+  cursor: pointer;
+  user-select: none;
+  background-color: #111B47;
+  color: white;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
 @media (max-width: 1024px) {
   .layout__bg {
     top: 150px;
